@@ -1,0 +1,50 @@
+.value {
+  display: flex;
+  justify-content: center;
+  background-color: #FBFAF5;
+}
+.value-offset{
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  margin-top: -4rem;
+  height: 100vh;
+  width: 75%;
+  background-color: #fbc3bc;
+  border-radius: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.value-header{
+  margin-bottom: 2rem;
+}
+.value .value-header h5{
+  font-weight: bold;
+  color: #91524A;
+  text-shadow: 1px 1px white;
+}
+.value .value-header h2{
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000000;
+  margin: 0 0 5px;
+  position: relative;
+  text-shadow: 1px 1px white;
+}
+.value-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.v-prop{
+  border: 3px solid #91524A;
+  border-radius: 2rem;
+  width: 35%;
+  padding: 1rem;
+  border-style: outset;
+}
+.value .value-container .v-prop h4{
+  font-weight: bold;
+  color: #91524A;
+}
