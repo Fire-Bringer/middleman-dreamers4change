@@ -1,0 +1,94 @@
+/* Footer Info Section */
+
+.info_section{
+  background-color: #91524A;
+  color: #ffffff;
+  padding: 90px 0 45px 0;
+  text-align: center;
+}
+.info_section h5{
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.info_section p, li{
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+.info_section .info_links ul{
+  padding: 0;
+}
+.info_section .info_links ul li{
+  list-style-type: none;
+}
+.info_section .info_links ul li a{
+  display: inline-block;
+  color: #ffffff;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.info_section .info_links ul li a:hover{
+  color: #fbc3bc;
+}
+
+.info_section .info_form form input{
+  outline: none;
+  width: 100%;
+  padding: 7px 10px;
+}
+.info_section .info_form form button{
+  padding: 8px 35px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  background: #fbc3bc;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+.info_section .info_form form button:hover{
+  background-color: #fbc3bc;
+  font-weight: bold;
+  color: #91524A;
+  border: 1px solid #91524A;
+}
+.info_section .info_form .social_box{
+  margin-top: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.info_section .info_form .social_box a{
+  margin-right: 25px;
+  color: #ffffff;
+  font-size: 24px;
+}
+.info_section .info_form .social_box a:hover{
+  color: #fbc3bc;
+}
+
+.info_contact, .info_info, .info_links{
+  margin-bottom: 2rem;
+}
+
+/* Bottom Footer */
+.footer_section{
+  position: relative;
+  background-color: #91524A;
+  text-align: center;
+}
+.footer_section p{
+  border-top: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 20px 0;
+  margin: 0;
+}
+.footer_section p a{
+  color: #fbc3bc;
+  text-decoration: none;
+}
+.footer_section p a:hover{
+  color: #fbc3bc;
+}
