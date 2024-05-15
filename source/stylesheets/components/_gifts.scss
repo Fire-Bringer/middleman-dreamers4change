@@ -4,7 +4,7 @@
   align-items: center;
   min-height: 150vh;
   width: 100%;
-  background: #fbc3bc;
+  background: radial-gradient(#FBFAF5, #fbc3bc);
   box-sizing: border-box;
 }
 .gifts .centered h2{
@@ -94,6 +94,41 @@
 }
 .gift-card:hover .border::before{
   opacity: 1;
+}
+progress {
+  width: 100%;
+  height: 20px; /* Adjust the height as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the progress bar fill */
+progress::-webkit-progress-value {
+  background-color: #91524A;
+}
+
+progress::-moz-progress-bar {
+  background-color: #91524A;
+}
+.progress-data{
+  display: flex;
+  justify-content: space-between;
+}
+.needed{
+  font-weight: bold;
+  color: red;
+}
+.gift-btn {
+  background-color: #91524A;
+  padding: 1rem;
+  display: inline-block;
+  border-radius: 2rem;
+  color: white;
+  border-style: outset;
+}
+.gifts .content h4{
+  font-weight: bold;
+  color: #91524A;
 }
 
 /*
