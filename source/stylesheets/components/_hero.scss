@@ -91,3 +91,9 @@
   align-items: center;
   border-radius: 0.5rem;
 }
+
+@media (max-width: 435px){
+  .hero{
+    height: 100vh;
+  }
+}
