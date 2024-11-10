@@ -21,9 +21,11 @@ body{
 /* Mobile Navbar Start*/
 .head1 {
   display: block;
+  z-index: 99;
 }
 .head2{
   display: none;
+  z-index: 99;
 }
 .navbar2{
   min-height: 70px;
